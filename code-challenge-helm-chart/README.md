@@ -10,8 +10,8 @@ Test helm chart for code challenge
 
   ![helm_install](https://github.com/codereposumudu/salsa-coding-challenge/blob/feature/initial_commit/demonstration/kubesystem.png)
 
-* This Cluster deployed on AWS, and it's inside the private subnets.
-* Public subnets designed for VPC to host nat gateways to enable internet.
+* This Cluster deployed on AWS VPC, and it's inside the private subnets.
+* Public subnets designed for VPC to host nat gateways to enable internet to the EKS cluster.
 * This cluster also provisioned by terraform.
 * This helm chart deploy nginx container as a deployment in EKS cluster, and it exposes via  kubernetes ingress.
 * Used below commands for create helm chart
