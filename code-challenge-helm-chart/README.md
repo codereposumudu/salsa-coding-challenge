@@ -1,6 +1,11 @@
 # salsa-coding-challenge
 Test helm chart for code challenge
 
+* Deployed on the EKS cluster instead of Minikube kubernetes cluster.
+* Below controllers deployed on the cluster.
+
+  ![helm_install](https://github.com/codereposumudu/salsa-coding-challenge/blob/feature/initial_commit/demonstration/kubesystem.png)
+
 * This helm chart deploy nginx container as a deployment in EKS cluster, and it exposes via  kubernetes ingress.
 * Used below commands for create helm chart
 
