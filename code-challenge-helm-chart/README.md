@@ -13,6 +13,7 @@ Test helm chart for code challenge
 * This Cluster deployed on AWS VPC, and it's inside the private subnets.
 * Public subnets designed for VPC to host nat gateways to enable internet to the EKS cluster.
 * This cluster also provisioned by terraform.
+* Used Git Workflow as the "git flow"
 * This helm chart deploy nginx container as a deployment in EKS cluster, and it exposes via  kubernetes ingress.
 * Used below commands for create helm chart
 
