@@ -23,6 +23,7 @@ Test helm chart for code challenge
 * To install helm chart
 
   ```bash
+    cd salsa-coding-challenge/
     helm install salsatest salsatest --namespace test 
   ```
   ![helm_install](https://github.com/codereposumudu/salsa-coding-challenge/blob/feature/initial_commit/demonstration/helm_install.png)
@@ -74,5 +75,12 @@ Note : if you don't set namespace it will provision under the default namespace
 
 * To delete helm chart
   ```bash
+  cd salsa-coding-challenge/
   helm delete salsatest --purge
+  ```
+* To Upgrade changes
+
+  ```bash
+  cd salsa-coding-challenge/ 
+  helm upgrade salsatest salsatest --namespace test
   ```
