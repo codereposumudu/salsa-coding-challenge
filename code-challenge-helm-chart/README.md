@@ -26,7 +26,7 @@ Note : if you don't set namespace it will provision under the default namespace
 * To RollBack to older revision 
 
    ```bash
-    helm rollback sallsatest 1 --namespace test
+    helm rollback salsatest 1 --namespace test
   ```
 ## Helm Chart File Structure
 
@@ -57,3 +57,9 @@ Note : if you don't set namespace it will provision under the default namespace
 
   ![app](https://github.com/codereposumudu/salsa-coding-challenge/blob/feature/initial_commit/demonstration/app.png)
 
+## Additional Commands
+
+* To delete helm chart
+  ```bash
+  helm delete salsatest --purge
+  ```
