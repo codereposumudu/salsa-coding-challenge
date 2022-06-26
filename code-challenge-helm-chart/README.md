@@ -21,7 +21,7 @@ Note : if you don't set namespace it will provision under the default namespace
    ```bash
     helm ls -n test
   ```
-  ![helm_install](https://github.com/codereposumudu/salsa-coding-challenge/blob/feature/initial_commit/demonstration/helm.png)
+  ![helm](https://github.com/codereposumudu/salsa-coding-challenge/blob/feature/initial_commit/demonstration/helm.png)
 
 * To RollBack to older revision 
 
@@ -42,3 +42,18 @@ Note : if you don't set namespace it will provision under the default namespace
     
     Demonstration :- This is not the part of hrlm chart, It created for store demo screenshots
   ```
+
+## Deployment Details ( DEMO )
+
+* application deployment
+
+  ![deployment](https://github.com/codereposumudu/salsa-coding-challenge/blob/feature/initial_commit/demonstration/deployment.png)
+
+* Ingress Deployment
+
+  ![ing](https://github.com/codereposumudu/salsa-coding-challenge/blob/feature/initial_commit/demonstration/ingress.png)
+
+* Application
+
+  ![app](https://github.com/codereposumudu/salsa-coding-challenge/blob/feature/initial_commit/demonstration/app.png)
+
